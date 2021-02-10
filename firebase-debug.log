@@ -1,0 +1,43 @@
+[debug] [2021-02-10T11:35:21.532Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T11:35:21.534Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JBLG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-10T11:35:21.535Z] CLI Version:   9.3.0
+[debug] [2021-02-10T11:35:21.535Z] Platform:      win32
+[debug] [2021-02-10T11:35:21.535Z] Node Version:  v14.15.5
+[debug] [2021-02-10T11:35:21.536Z] Time:          Wed Feb 10 2021 12:35:21 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2021-02-10T11:35:21.537Z] ----------------------------------------------------------------------
+[debug] [2021-02-10T11:35:21.537Z] 
+[debug] [2021-02-10T11:35:21.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-10T11:35:21.545Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Users\jblg\Unity Project\MiniViewer3DOrinox
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-02-10T11:35:43.830Z] > refreshing access token with scopes: []
+[debug] [2021-02-10T11:35:43.830Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-10T11:35:43.982Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 10 Feb 2021 11:35:45 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-10T11:35:43.991Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-02-10T11:35:44.233Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-02-10T11:35:44.233Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project dviewer-59182 (3DViewer) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
