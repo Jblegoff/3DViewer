@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2350451982
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8d8fff90f5d6d2ce767bb6391bbe3f4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae2cf77de671e115b4e55d2b65767202
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Banana.fbx
+- Assets/Prefab/Watermelon.fbx
+- Assets/Prefab/Cherry.fbx
+- Assets/Prefab/Olive.fbx
+- Assets/Prefab/Hamburger.fbx
+- Assets/Prefab/Cheese.fbx
+- Assets/Prefab/Hotdog.fbx
+Dependencies: []
